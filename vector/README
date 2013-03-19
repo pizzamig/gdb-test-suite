@@ -1,0 +1,8 @@
+# gdb commands
+
+b main
+n
+n
+# when you see vv.push_back(0)
+p vv.size()
+
