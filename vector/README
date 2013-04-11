@@ -1,8 +1,9 @@
 # gdb commands
 
 b main
-n
+r
 n
 # when you see vv.push_back(0)
 p vv.size()
-
+n
+p vv.size()
