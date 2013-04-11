@@ -1,5 +1,8 @@
-boost-1:
+vector:
 	g++ -g -o vector main.cpp
 
+vector-clang:
+	clang++ -g -o vector-clang main.cpp
+
 clean:
-	rm vector
+	rm -f vector vector-clang
