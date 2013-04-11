@@ -1,7 +1,7 @@
 vector:
 	g++ -g -o vector main.cpp
 
-vector-clang:
+clang:
 	clang++ -g -o vector-clang main.cpp
 
 clean:
