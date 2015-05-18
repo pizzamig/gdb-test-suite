@@ -1,0 +1,7 @@
+# pthread based test
+
+$ ./pthread-1 10 10
+
+$ gdb ./pthread-1
+
+(gdb) r 10 10
