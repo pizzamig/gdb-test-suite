@@ -1,5 +1,6 @@
-# Breakpoints
+# Testing the thread handling
 
-break 50
-break 65
-break 66
+gdbXX ./boost-1
+
+(gdb) run
+
