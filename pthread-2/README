@@ -1,0 +1,4 @@
+Run the program in gdb
+
+$ gdbXX pthread-2
+(gdb) run 10
