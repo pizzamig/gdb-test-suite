@@ -1,7 +1,9 @@
+all: vector vector-clang
+
 vector:
 	g++ -g -o vector main.cpp
 
-clang:
+vector-clang:
 	clang++ -g -o vector-clang main.cpp
 
 clean:
