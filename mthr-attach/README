@@ -1,0 +1,7 @@
+Testing the attach of a multithread application
+
+$ make
+$ ./daemon &
+[1] 68756
+$ gdbXX ./daemon
+(gdb) attach 68756
