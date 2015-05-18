@@ -1,0 +1,6 @@
+This case tests gdb with core dump files
+
+$ make
+$ ./ccreator
+$ gdbXX --core=ccreator.core ./creator
+(gdb) thread apply all bt
