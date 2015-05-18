@@ -1,0 +1,5 @@
+This is my personal collection of tests I'm using to verify the correct behavior of gdb on FreeBSD
+
+This work is still in progress, a lot of work is to be done to get a good test suite, but it's a good start point
+
+pizzamig
