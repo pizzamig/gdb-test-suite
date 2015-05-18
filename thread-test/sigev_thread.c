@@ -54,13 +54,6 @@ int main()
     struct itimerspec ts;
     struct sigevent se;
 
-#ifdef sun
-    fprintf (
-        stderr,
-        "This program cannot compile on Solaris 2.5.\n"
-        "To build and run on Solaris 2.6, remove the\n"
-        "\"#ifdef sun\" block in main().\n");
-#else
     /*
      * Set the sigevent structure to cause the signal to be
      * delivered by creating a new thread.
@@ -78,13 +71,13 @@ int main()
     ts.it_interval.tv_sec = 5;
     ts.it_interval.tv_nsec = 0;
 
-    DPRINTF (("Creating timer\n"));
+    printf("Creating timer\n");
     status = timer_create(CLOCK_REALTIME, &se, &timer_id);
     if (status == -1)
         errno_abort ("Create timer");
 
-    DPRINTF ((
-        "Setting timer %d for 5-second expiration...\n", timer_id));
+    printf(
+        "Setting timer %d for 5-second expiration...\n", timer_id);
     status = timer_settime(timer_id, 0, &ts, 0);
     if (status == -1)
         errno_abort ("Set timer");
@@ -101,6 +94,5 @@ int main()
     if (status != 0)
         err_abort (status, "Unlock mutex");
 
-#endif /* Sun */
     return 0;
 }

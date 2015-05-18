@@ -1,0 +1,4 @@
+Just run the program under gdb
+
+The program uses a soft realtime feature to launch a thread when a time expires.
+devel/gdb support the FreeBSD implementation of sigev, gdb in src doesn't.
