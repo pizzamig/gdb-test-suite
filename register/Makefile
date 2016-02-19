@@ -1,12 +1,9 @@
-all: register register-clang
+all: register
 	
 
 register: register.c
-	gcc -g -o register register.c
-
-register-clang: register.c
-	clang -g -o register-clang register.c
+	cc -g -o register register.c
 
 clean:
-	rm -f register register-clang
+	rm -f register
 

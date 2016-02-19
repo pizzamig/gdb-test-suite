@@ -1,0 +1,3 @@
+# This is not a gdb test
+# the value of the vvint should be showed
+# it's a compiler problem
