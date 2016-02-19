@@ -1,0 +1,10 @@
+# Testing the follow-fork option
+# testing fork() and system()
+
+gdbXX ./hello-fork
+
+(gdb) run
+
+gdbXX ./hello-system
+
+(gdb) run
