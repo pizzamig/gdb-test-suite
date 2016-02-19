@@ -1,0 +1,6 @@
+# testing the popen call
+# this is an indirected test of vfork()
+
+gdbXX ./popen-test
+
+(gdb) run
