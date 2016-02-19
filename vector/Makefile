@@ -1,10 +1,7 @@
-all: vector vector-clang
+all: vector
 
 vector:
-	g++ -g -o vector main.cpp
-
-vector-clang:
-	clang++ -g -o vector-clang main.cpp
+	c++ -g -o vector main.cpp
 
 clean:
-	rm -f vector vector-clang
+	rm -f vector

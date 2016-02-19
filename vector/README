@@ -1,7 +1,7 @@
-# gdb commands
+# This is a regression test
+# it's not valid anymore, using the clang STL
 
-b main
-r
+# gdb commands
 n
 # when you see vv.push_back(0)
 p vv.size()
