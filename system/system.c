@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-main() {
+int main() {
   printf("system call returned code=%d\n", system("/bin/ls"));
+  return 0;
 }
 
