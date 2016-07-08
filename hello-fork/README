@@ -4,7 +4,6 @@
 gdbXX ./hello-fork
 
 (gdb) run
+(gdb) info threads
+(gdb) continue
 
-gdbXX ./hello-system
-
-(gdb) run

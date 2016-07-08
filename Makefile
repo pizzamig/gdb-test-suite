@@ -1,5 +1,6 @@
 SUBDIR+=	boost-1
 SUBDIR+=	boost-2
+SUBDIR+=	hello-fork
 SUBDIR+=	popen
 
 .PHONY: build clean
