@@ -1,6 +1,6 @@
 This is my personal collection of tests I'm using to verify the correct behavior of gdb on FreeBSD
 
-This work is still in progress, a lot of work is to be done to get a good test suite, but it's a good start point
+This work is still in progress, a lot of work has to be done to get a really good test suite, but it's a good start point
 
 KNOWN FAILURE
 pthread-1 is not clear: it stops on gdb.

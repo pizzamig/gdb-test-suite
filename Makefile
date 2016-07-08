@@ -2,6 +2,7 @@ SUBDIR+=	boost-1
 SUBDIR+=	boost-2
 SUBDIR+=	hello-fork
 SUBDIR+=	popen
+SUBDIR+=	thread-fork
 
 .PHONY: build clean
 .DEFAULT: build
