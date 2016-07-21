@@ -77,7 +77,7 @@ int main()
         errno_abort ("Create timer");
 
     printf(
-        "Setting timer %d for 5-second expiration...\n", timer_id);
+        "Setting timer %p for 5-second expiration...\n", timer_id);
     status = timer_settime(timer_id, 0, &ts, 0);
     if (status == -1)
         errno_abort ("Set timer");

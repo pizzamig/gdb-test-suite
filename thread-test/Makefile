@@ -7,7 +7,7 @@ PROGRAMS=$(SOURCES:.c=)
 
 all:	sigev_thread
 
-sigev_thread:
+sigev_thread: sigev_thread.c
 	${CC} ${CFLAGS} ${RTFLAGS} ${LDFLAGS} -o $@ sigev_thread.c
 clean:
 	@rm -rf $(PROGRAMS) *.o
