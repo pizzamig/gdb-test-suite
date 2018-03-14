@@ -3,6 +3,7 @@ SUBDIR+=	boost-2
 SUBDIR+=	hello-fork
 SUBDIR+=	mthr-attach
 SUBDIR+=	popen
+SUBDIR+=	pthread-2
 SUBDIR+=	system
 SUBDIR+=	thread-fork
 SUBDIR+=	thread-test
